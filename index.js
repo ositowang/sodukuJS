@@ -30,9 +30,10 @@ startGame.addEventListener('click', startPlay);
 
 //bind events to the control btn
 restartBtn.addEventListener('click', (e) => startPlay(e, true));
-checkBtn.addEventListener('click', () => {
+checkBtn.addEventListener('click', (e) => {
   if (sodukuBoard.check()) {
     alert('You are so great');
+    sodukuBoard.startPlay(e, true);
   }
   sodukuBoard.check();
 });
