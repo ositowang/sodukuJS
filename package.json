@@ -1,0 +1,18 @@
+{
+  "name": "sodukuJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "less": "^3.9.0"
+  }
+}
